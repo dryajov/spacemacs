@@ -45,6 +45,7 @@
       (progn
         (require 'dap-firefox)
         (require 'dap-chrome)
+        (require 'dap-node)
         (spacemacs/dap-bind-keys-for-mode 'js2-mode))
     (message "`dap' layer is not installed, please add `dap' layer to your dotfile.")))
 
